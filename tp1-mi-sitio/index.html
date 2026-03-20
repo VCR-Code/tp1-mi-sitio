@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Proyecto</title>
+</head>
+<body>
+    <header>
+        <h1>Victor Colón</h1>
+        <p>IES Nº 6001 "Gral. Manuel Belgrano" - Salta</p>
+    </header>
+    <nav>
+        <ul>   
+        <a href="https://github.com/VCR-Code" target="_blank">Github</a>
+        <a href="#mis_datos">Mis Datos</a>
+        <a href="https://www.w3schools.com/python/default.asp" target="_blank">Phyton Tutorial</a>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="sobremi">
+        <section id="Sobre mi">  
+            <h2>Sobre Mi</h2>
+            <p>Soy tecnico superior en soporte y mantenimiento informatico, <br/>actualmente cursando analisis de sistemas y desarrollo de software.</p>
+            <img class="foto" src="imag/foto.jpg" alt="Imagen PC Jurassic Hard">
+        </div>    
+        </section>
+
+        <section id="mis_datos">
+            <h2>Contacto</h2>
+            <div class="contenedor">
+            <img class="imagen" src="imag/icono.jpg" alt="Icono WhatssApp">
+            <p>3875010245</p>
+            </div>
+            <div class="contenedor_2">
+            <img class="icono_mail" src="imag/icono_mail.jpg" alt="Icono Email">
+            <p>v.colon.reyes@hotmail.com</p>
+            </div>
+        </section>
+
+        <section id="Contactame">
+            <p>Deja tus datos y en la brevedad <br/>nos comunicaremos contigo</p>
+            <form action="#" method="post">
+                <label for="name">Nombre *</label>
+                <input type="text" id="name" name="name" placeholder="ej. Juan Perez" required>
+                <label for="email">Email *</label>
+                <input type="email" name="email" id="email" placeholder="ej. ejemplo@hotmail.com" required>
+                <label for="number">Nº de Telefono *</label>
+                <input type="tel" name="number" id="number" placeholder="ej. nº de area + xxxxxx" required>
+                <button type="submit">Enviar</button>
+                <div class="campo">
+                <p>* Campos requeridos</p>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Victor Colón</p>
+    </footer>
+    
+</body>
+</html>
