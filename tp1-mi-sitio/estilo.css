@@ -100,7 +100,7 @@ input {
 
 input:focus {
   border-color: #007BFF;
-  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+  /*box-shadow: 0 0 5px rgba(0,123,255,0.3); sombra al rededor de una caja*/
   outline: none;
 }
 
@@ -112,6 +112,23 @@ input:valid {
 input:invalid:not(:placeholder-shown) {
   border-color: #dc3545;
   background-color: #f8d7da;
+}
+
+textarea {
+  width: 400px;        
+  height: 150px;       
+  font-size: 16px;    
+  color: #333;         
+  background-color: none; 
+  border: 1px solid #ccc ; 
+  border-radius: 6px;  
+  padding: 10px;       
+  resize: none;        
+}
+
+textarea:focus {
+  border-color: #007BFF;   /* cambia el color del borde */
+  outline: none;           /* quita el borde azul por defecto del navegador */
 }
 
 button {
@@ -127,7 +144,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color:  #0056b3;;
 }
 
 .campo p {
