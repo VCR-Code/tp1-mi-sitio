@@ -22,7 +22,7 @@ nav{
 }
 nav a {
     color: white;
-    text-decoration: none
+    text-decoration: double underline yellow
 }
 nav a:hover{
     color: greenyellow;
