@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+header{
+    background: url(imag/banner.jpeg) no-repeat;
+    background-size: cover ;
+    color: white;
+    padding: 90px;
+}
+nav{
+    background-color: #444444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: double underline yellow
+}
+nav a:hover{
+    color: greenyellow;
+}
+.sobremi{
+    text-align: center;
+}
+.foto {
+    width: 300px;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.contenedor{
+    display: flex;
+}
+.icono_mail{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+.contenedor_2{
+    display: flex;
+}
+.campo{
+    color: red;
+}
+footer{
+    background-color: #444444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+section{
+    margin-bottom: 30px;
+}
+h2{
+    color: black
+}
+p{
+    margin-bottom: 20px;
+}
+img{
+    
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #007BFF;
+  /*box-shadow: 0 0 5px rgba(0,123,255,0.3); sombra al rededor de una caja*/
+  outline: none;
+}
+
+input:valid {
+  border-color: #28a745;
+  background-color: #e9f7ef;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+textarea {
+  width: 400px;        
+  height: 150px;       
+  font-size: 16px;    
+  color: #333;         
+  background-color: none; 
+  border: 1px solid #ccc ; 
+  border-radius: 6px;  
+  padding: 10px;       
+  resize: none;        
+}
+
+textarea:focus {
+  border-color: #007BFF;   /* cambia el color del borde */
+  outline: none;           /* quita el borde azul por defecto del navegador */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0400ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:  #0056b3;;
+}
+
+.campo p {
+  font-size: 12px;
+  color: #666;
+  margin-top: -10px;
+}
