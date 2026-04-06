@@ -19,5 +19,5 @@ A pesar de que la intefaz grafica es comoda e intuitiva, creo que la terminal es
 futuro programador debe aprender a usar ya que es mas flexible y avanzada. 
 Ademas que todo sistema operativo tiene una, lo que la hace una herramienta versatil.
 
-## Contacto
+## Email
 v.colon.reyes@gmail.com
