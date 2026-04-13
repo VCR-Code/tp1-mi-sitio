@@ -1,50 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Proyecto</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <h1>Victor Colón</h1>
-        <p>IES Nº 6001 "Gral. Manuel Belgrano" - Salta</p>
-    </header>
-    <nav>
-        <ul>   
+
+<div class="layout">
+
+  <!-- HEADER -->
+  <header class="header">  
+    <div class="navbar">
+      <div class="logo">Bienvenidos</div>
+      <nav class="nav-links">   
         <a href="https://github.com/VCR-Code" target="_blank">Github</a>
-        <a href="#mis_datos">Mis Datos</a>
-        <a href="https://www.w3schools.com/python/default.asp" target="_blank">Phyton Tutorial</a>
-        <a href="contact.html">Contacto</a>
-        </ul>
-    </nav>
+        <a href="https://www.w3schools.com/python/default.asp" target="_blank">Python Tutorial</a>
+        <a href="contact.html" target="_blank">Contacto</a>
+      </nav>
+    </div>
+  </header> 
 
-    <main>
-        <div class="sobremi">
-        <section id="Sobre mi">  
-            <h2>Sobre Mi</h2>
-            <p>Soy tecnico superior en soporte y mantenimiento informatico, <br/>actualmente cursando analisis de sistemas y desarrollo de software.</p>
-            <img class="foto" src="imag/foto.jpg" alt="Imagen PC Jurassic Hard">
-        </div>    
-        </section>
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+  <h3>Menú</h3>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Sobre mí</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
 
-        <section id="mis_datos">
-            <h2>Mis Datos</h2>
-            <div class="contenedor">
-            <img class="imagen" src="imag/icono.jpg" alt="Icono WhatssApp">
-            <p>3875010245</p>
-            </div>
-            <div class="contenedor_2">
-            <img class="icono_mail" src="imag/icono_mail.jpg" alt="Icono Email">
-            <p>v.colon.reyes@hotmail.com</p>
-            </div>
-        </section>
-    </main>
+  <h3>Perfil</h3>
+  <p>Técnico en soporte informático</p>
+  <p>Estudiante de sistemas</p>
 
-    <footer>
-        <p>© 2026 Victor Colón</p>
-    </footer>
-    
+  <h3>Disponibilidad</h3>
+  <p>✔ Trabajo freelance</p>
+  <p>✔ Soporte técnico</p>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Victor Colón</h1>
+        <h2>Desarrollador Web Junior</h2>
+        <a href="https://github.com/VCR-Code?tab=projects" target="_blank" class="btn">
+          Ver mis proyectos
+        </a>
+      </div>
+    </section> 
+
+    <!-- SOBRE MI -->
+    <section class="sobremi">  
+      <h2>Sobre Mi</h2>
+      <p>
+        Soy tecnico superior en soporte y mantenimiento informatico,<br/>
+        actualmente cursando analisis de sistemas y desarrollo de software.
+      </p>
+      <img class="foto" src="imag/foto.jpg" alt="Imagen PC Jurassic Hard">
+    </section>
+
+    <!-- CARDS -->
+    <section class="cards-section">
+      <div class="card">
+        <h3>Servicios</h3>
+        <p>-Reparacion de PC.<br/>-Cableado estructurado.<br/>-Instalacion y mantenimiento de servidores.</p>
+      </div>
+
+      <div class="card">
+        <h3>Habilidades por adquirir</h3>
+        <p>-HTML y CSS.<br/>-Python.<br/>-Java.</p>
+      </div>
+
+      <div class="card">
+        <h3>Mis Datos</h3>
+        <div class="contenedor">
+          <img class="imagen" src="imag/icono.jpg">
+          <p>3875010245</p>
+        </div>
+        <div class="contenedor_2">
+          <img class="icono_mail" src="imag/icono_mail.jpg">
+          <p>v.colon.reyes@hotmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="galeria">
+      <div class="item">
+       <h3>Reparación de PC</h3>
+       <p>Diagnóstico y solución de fallas.</p>
+      </div>
+
+      <div class="item">
+       <h3>Redes</h3>
+       <p>Instalación y configuración de redes.</p>
+      </div>
+
+      <div class="item">
+       <h3>Servidores</h3>
+       <p>Mantenimiento e instalación.</p>
+      </div>
+
+      <div class="item">
+       <h3>Desarrollo Web</h3>
+       <p>Creación de sitios modernos.</p>
+       </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Victor Colón</p>
+    <div class="social-links">
+      <a href="https://ar.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/VCR-Code" target="_blank">Github</a>
+      <a href="https://www.instagram.com/?hl=es" target="_blank">Instagram</a>
+    </div>
+  </footer>
+
+</div>
 </body>
 </html>
